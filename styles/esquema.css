@@ -1,0 +1,18 @@
+/* EJERCICIO 7 OPACIDAD */
+
+/* rojo con RGBA */
+p:nth-child(1) {
+  background-color: rgba(255,0,0,0.5);
+}
+
+/* rojo con opacidad */
+p:nth-child(2) {
+  background-color: rgb(255,0,0);
+  opacity: 0.5;
+}
+
+/* Color personalizado con opacidad */
+p:nth-child(3) {
+  background-color: rgb(181,150,240);
+  opacity: 0.5;
+}
